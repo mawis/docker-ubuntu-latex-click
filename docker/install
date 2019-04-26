@@ -1,0 +1,7 @@
+#! /bin/sh
+
+dpkg --add-architecture armhf
+apt-get update
+apt-get install -y build-essential curl binutils-arm-linux-gnueabihf gcc-arm-linux-gnueabihf
+rustup default stable
+rustup target add arm-unknown-linux-gnueabihf
