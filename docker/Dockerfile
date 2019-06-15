@@ -1,4 +1,4 @@
-FROM rust:1.34
+FROM blang/latex:ubuntu
 MAINTAINER Matthias Wimmer <m@tthias.eu>
 ENV DEBIAN_FRONTEND noninteractive
 
