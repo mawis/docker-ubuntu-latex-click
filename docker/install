@@ -1,6 +1,6 @@
 #! /bin/sh
 
 export LANG=C.UTF-8
-apt -qq update
-apt install -y pandoc python3-pip python3-yaml
+apt-get -qq update
+apt-get install -y pandoc python3-pip python3-yaml
 pip3 install click
